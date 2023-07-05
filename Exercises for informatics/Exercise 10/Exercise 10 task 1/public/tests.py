@@ -77,7 +77,7 @@ class PrivateFunctionalTestSuite(TestCase):
     def test_to_much_withdrawn2(self):
         with self.assertRaises(Warning):
             b = BankAccount()
-            b.deposit(150, "USD")
+            b.withdraw(150, "USD")
 
 
 

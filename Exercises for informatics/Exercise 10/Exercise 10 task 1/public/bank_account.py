@@ -36,11 +36,8 @@ class BankAccount:
             self.__amount += amount
         else:
             x = convert(amount, currency, self.__currency)
-            print(amount)
-            if self.__amount < x:
-                raise Warning("not enough money in the bank")
-            else:
-                self.__amount -= x
+            self.__amount += x
+
 
     def withdraw(self, amount, currency="CHF"):
         BankAccount.correct_amount(self, amount)
@@ -57,8 +54,3 @@ class BankAccount:
                 raise Warning("not enough money in the bank")
             else:
                 self.__amount -= amount
-
-
-sut = BankAccount("CHF")
-sut.deposit(150, "USD")
-sut.withdraw(10.0, "EUR")
