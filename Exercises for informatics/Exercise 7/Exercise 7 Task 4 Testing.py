@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from unittest import TestCase
 from Exercise7Task4 import evolve
 

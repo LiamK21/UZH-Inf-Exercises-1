@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from unittest import TestCase
 from Exercise8Task5 import Restaurant
 from Exercise8Task5Item import Item
