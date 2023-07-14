@@ -1,11 +1,11 @@
-// ignore .idea folder
+# ignore .idea folder
 
-.idea
+idea
 
-//ignore venv folder
+# ignore venv folder
 
 venv
 
-//ignore .pyc files
+# ignore .pyc files
 
 *.pyc
