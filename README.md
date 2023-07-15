@@ -1,5 +1,5 @@
 # UZH-Inf-Exercises
-All exercises of the courses "Informatics 1" and "Informatics 2"
+Exercises of the course "Informatics 1".
 
 
 Not all exercises are fully correct
