@@ -1,7 +1,6 @@
 # ignore .idea folder
 
-*.xml
-*.iml
+.idea
 
 # ignore venv folder
 
@@ -10,5 +9,3 @@ venv
 # ignore .pyc files
 
 *.pyc
-*__pycache__
-*.py
