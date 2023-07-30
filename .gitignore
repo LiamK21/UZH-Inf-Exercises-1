@@ -8,4 +8,4 @@ venv
 
 # ignore .pyc files
 
-*.pyc
+**__pycache__/
